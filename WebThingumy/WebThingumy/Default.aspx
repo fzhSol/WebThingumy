@@ -10,7 +10,7 @@
             {
                 var left = parseInt(image.style.left, 10);
                 var top = parseInt(image.style.top, 10);
-                if (keyCode == '97')
+                if (keyCode == 97)
                 {
                     image.style.left = (left - 2) + 'px';
                 }
@@ -30,6 +30,6 @@
         }
     </script>
     <div ID="Image1" style="width: 10px; height: 10px; left: 20px; top: 100px; background-color: #000; position: absolute;">&nbsp;</div>
-<asp:Panel ID="Panel1" runat="server" Height="500px">
-</asp:Panel>
+    <asp:Panel ID="Panel1" runat="server" Height="500px">
+    </asp:Panel>
 </asp:Content>
